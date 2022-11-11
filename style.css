@@ -64,7 +64,7 @@ nav a:hover {
 }
 
 .produtos li:hover h2 {
-  font-size: 34px;
+  font-size: 32px;
 }
 
 .produtos h2 {
@@ -84,7 +84,7 @@ nav a:hover {
 
 footer {
   text-align: center;
-  background: url("../imagens/bg.jpg");
+  background: url("./imagens/bg.jpg");
   padding: 40px 0;
 }
 
@@ -109,8 +109,7 @@ form legend {
   margin: 0 0 10px;
 }
 
-.input-padrao input,
-form textarea {
+.input-padrao input, form textarea {
   display: block;
   margin-bottom: 20px;
   padding: 10px 25px;
