@@ -106,25 +106,34 @@ form label,
 form legend {
   display: block;
   font-size: 20px;
-  margin: 0 0 10px;
+  margin: 0 0 5px 20px;
 }
 
-.input-padrao input, form textarea {
+.input-padrao, input form textarea {
   display: block;
   margin-bottom: 20px;
   padding: 10px 25px;
   width: 50%;
-  margin: 0 0 10px 10px;
+  margin: 0 0 10px 20px;
 }
 
 .checkbox {
-  margin: 20px 0;
+  margin: 20px 0 0 20px;
+}
+
+.select{
+  margin: 30px;
+}
+
+.select-lista {
+  margin-left: 20px;
 }
 
 .enviar {
-  width: 40%;
-  padding: 15px 0;
-  background: orange;
+  margin: 5px 0 0 30px;
+  width: 30%;
+  padding: 5px 0;
+  background: #888888;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -135,8 +144,8 @@ form legend {
 }
 
 .enviar:hover {
-  background: darkorange;
-  transform: scale(1.1);
+  background: darkgreen;
+  transform: scale(1.05);
   //transform: rotate(70deg) scale(1.2);
 }
 
